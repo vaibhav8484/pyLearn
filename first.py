@@ -1,7 +1,7 @@
 import copy
 
 li = [1,2,3,[5,8]]
-a = copy.copy(li)
+a = copy.deepcopy(li)
 li[1] = 6
 a.append(100)
 print(li)
